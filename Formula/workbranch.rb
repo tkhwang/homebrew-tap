@@ -1,8 +1,8 @@
 class Workbranch < Formula
   desc "Simplify branch operations for Git worktree-based development"
   homepage "https://github.com/tkhwang/workbranch"
-  url "https://github.com/tkhwang/workbranch/archive/refs/tags/v1.9.1.tar.gz"
-  sha256 "48b7648716c01d1b776c2fd3b4e18d721a59b677c9e95e391e91599bb4d22a4f"
+  url "https://github.com/tkhwang/workbranch/archive/refs/tags/v1.10.0.tar.gz"
+  sha256 "26f23c90bf4c7d6237bcd8fe8d7573631dd5ef92ce9cab3cc4d0bbe65dc4c329"
   license "MIT"
 
   def install
