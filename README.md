@@ -24,16 +24,10 @@ Menu bar companion app for the `workbranch` CLI.
 
 ### Install
 
-The companion app is currently ad-hoc signed, so install it with `--no-quarantine`:
+Install the companion app as a cask:
 
 ```bash
-brew install --cask --no-quarantine tkhwang/tap/workbranch-companion
-```
-
-If macOS Gatekeeper blocks an existing install, clear the quarantine attribute:
-
-```bash
-xattr -dr com.apple.quarantine "/Applications/WorkbranchCompanion.app"
+brew install --cask tkhwang/tap/workbranch-companion
 ```
 
 ## Formula and Cask
