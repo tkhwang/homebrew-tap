@@ -7,14 +7,7 @@ cask "workbranch-companion" do
   desc "Menu bar companion for the workbranch CLI"
   homepage "https://github.com/tkhwang/workbranch"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "WorkbranchCompanion.app"
-
-  caveats <<~EOS
-    This app is currently ad-hoc signed. Install with --no-quarantine:
-      brew install --cask --no-quarantine tkhwang/tap/workbranch-companion
-    If already installed and blocked by Gatekeeper:
-      xattr -dr com.apple.quarantine "/Applications/WorkbranchCompanion.app"
-  EOS
 end
