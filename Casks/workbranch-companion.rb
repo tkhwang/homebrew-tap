@@ -1,6 +1,6 @@
 cask "workbranch-companion" do
-  version "1.14.0"
-  sha256 "ecd341caa7385562f941e7d2957af32032c1fa9afcb95589572d1ded92a867ca"
+  version "1.14.1"
+  sha256 "2c3bb6b59b262418f2f4d6567e607a8b784d037d821effe13b07ca3fabae5fec"
 
   url "https://github.com/tkhwang/workbranch/releases/download/workbranch-companion-v#{version}/WorkbranchCompanion-#{version}.zip"
   name "Workbranch Companion"
@@ -10,4 +10,6 @@ cask "workbranch-companion" do
   depends_on macos: :ventura
 
   app "WorkbranchCompanion.app"
+
+  uninstall quit: "dev.tkhwang.workbranch.companion"
 end
