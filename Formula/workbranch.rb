@@ -1,13 +1,13 @@
 class Workbranch < Formula
   desc "Simplify branch operations for Git worktree-based development"
   homepage "https://github.com/tkhwang/workbranch"
-  url "https://github.com/tkhwang/workbranch/archive/refs/tags/v2.4.0.tar.gz"
-  sha256 "47631db5019588850fd1d4c767da7436d9f38619c5a4c11ce3e09eabb4365f57"
+  url "https://github.com/tkhwang/workbranch/archive/refs/tags/v2.4.1.tar.gz"
+  sha256 "d9e4183213873924282a012454bc48d8504244e2dfb8516f1fb3365a217fdcb9"
   license "MIT"
 
   def install
-    system "apps/workbranch-cli/scripts/build-workbranch.sh"
-    bin.install "apps/workbranch-cli/bin/workbranch"
+    system "apps/cli/scripts/build-workbranch.sh"
+    bin.install "apps/cli/bin/workbranch"
   end
 
   test do
