@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">tkhwang Homebrew Tap</title>
+  <desc id="desc">The Homebrew tap command routes to Tasteful Intent, workbranch, and Workbranch Companion.</desc>
+
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101720"/>
+      <stop offset="1" stop-color="#080C11"/>
+    </linearGradient>
+    <linearGradient id="brew-line" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B84B"/>
+      <stop offset="1" stop-color="#58C6B5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="520" rx="30" fill="url(#surface)"/>
+
+  <g id="title-block" transform="translate(44 34)">
+    <rect width="166" height="34" rx="17" fill="#1C2631"/>
+    <circle cx="18" cy="17" r="5" fill="#F2B84B"/>
+    <text x="32" y="23" fill="#C8D2DC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="600">HOMEBREW TAP</text>
+
+    <text x="0" y="108" fill="#F7F1E7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="54" font-weight="760" letter-spacing="-1.5">tkhwang / tap</text>
+    <text x="0" y="148" fill="#AAB6C2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22">Three focused macOS tools. One reliable install path.</text>
+
+    <g transform="translate(0 176)">
+      <rect width="632" height="62" rx="12" fill="#06090D" stroke="#2B3744"/>
+      <circle cx="25" cy="31" r="6" fill="#58C6B5"/>
+      <text x="49" y="39" fill="#F7F1E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="21">brew tap tkhwang/tap</text>
+      <path d="M590 24L602 31L590 38" fill="none" stroke="#F2B84B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <g id="package-flow" transform="translate(66 292)">
+    <path d="M14 8V150" stroke="url(#brew-line)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="14" cy="8" r="9" fill="#F2B84B"/>
+    <path d="M14 42H48M14 96H48M14 150H48" stroke="#536171" stroke-width="2"/>
+
+    <g id="tasteful-intent" transform="translate(48 18)">
+      <text x="0" y="28" fill="#F7F1E7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="700">Tasteful Intent</text>
+      <text x="370" y="28" fill="#AAB6C2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">CASK · v1.5.0</text>
+    </g>
+
+    <g id="workbranch" transform="translate(48 72)">
+      <text x="0" y="28" fill="#F7F1E7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="700">workbranch</text>
+      <text x="370" y="28" fill="#AAB6C2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">FORMULA · v2.14.0</text>
+    </g>
+
+    <g id="workbranch-companion" transform="translate(48 126)">
+      <text x="0" y="28" fill="#F7F1E7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="700">Workbranch Companion</text>
+      <text x="370" y="28" fill="#AAB6C2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">CASK · v2.11.0</text>
+    </g>
+
+    <circle cx="14" cy="150" r="7" fill="#58C6B5"/>
+  </g>
+
+  <path d="M44 480H676" stroke="#202A35"/>
+  <text x="44" y="504" fill="#8190A0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">FORMULA + CASKS · VERSIONED RELEASES · SHA-256 VERIFIED</text>
+</svg>
