@@ -1,9 +1,9 @@
 cask "tasteful-intent" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.6.0"
-  sha256 arm:   "d8ba6e2977f83b787e4360acefd3da3395036ca02a7be23c3cc64e1409404fc9",
-         intel: "cc26a9c76f1821a71bee8847783996b7b34e866be8db8e02a453d22f749f2133"
+  version "1.7.0"
+  sha256 arm:   "4484b39ad53d3e601887aee83098c83699a956d544d6800857c0009d4aa52c08",
+         intel: "495ed7fd63d43137d690409a50690ace534c87c58c58f5d1a125c5e74a635235"
 
   url "https://github.com/tkhwang/tasteful-intent/releases/download/v#{version}/TastefulIntent_#{version}_#{arch}.dmg"
   name "Tasteful Intent"
