@@ -1,6 +1,6 @@
 cask "workbranch-companion" do
-  version "2.25.0"
-  sha256 "f6a15e8ae6d5c507aebe43d16b12c4d78bf563da81e939e6ee485c076d50860b"
+  version "2.26.0"
+  sha256 "0a76788e5187e996524db6efb369aba192426dd9368261ee5c8379962ad6aff9"
 
   url "https://github.com/tkhwang/workbranch/releases/download/workbranch-companion-v#{version}/WorkbranchCompanion-#{version}.zip"
   name "Workbranch Companion"
