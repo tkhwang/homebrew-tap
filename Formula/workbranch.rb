@@ -1,8 +1,8 @@
 class Workbranch < Formula
   desc "Simplify branch operations for Git worktree-based development"
   homepage "https://github.com/tkhwang/workbranch"
-  url "https://github.com/tkhwang/workbranch/archive/refs/tags/v2.28.0.tar.gz"
-  sha256 "46ce484b0469bc71808a9bb3022bf5dae3155a45901132b07b119c42e9bccf17"
+  url "https://github.com/tkhwang/workbranch/archive/refs/tags/v2.29.0.tar.gz"
+  sha256 "122525f440e5e6c7dc68b8e76050ec9bd9360f952aec8f89a4250f7a53a19037"
   license "MIT"
 
   depends_on "rust" => :build
